@@ -9,9 +9,9 @@
   "jsnbversion": "v0.1",
   "cells": [
     {
-      "code": "let a=[100,1,2,3]\nscrib.show(a.sort())",
-      "status": "[1]<br><span style=\"font-size:8px\">0ms<span></span></span>",
-      "output": "[\n  1,\n  100,\n  2,\n  3\n] <br>",
+      "code": "let a=[100,1,2,3]",
+      "status": "[2]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "",
       "type": "code"
     }
   ],
