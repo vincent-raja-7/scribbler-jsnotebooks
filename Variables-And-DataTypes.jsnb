@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "name": "Variables and Datatypes<br>",
+    "language_info": {
+      "name": "JavaScipt",
+      "version": "8.0"
+    }
+  },
+  "jsnbversion": "v0.1",
+  "cells": [
+    {
+      "code": "<div style=\"text-align:center;background-color:#fede02;color:#555;margin:-10px;margin-left:-20px;margin-right:-20px;\">\n        <br><h1  style=\"color:#555\">Exploring How JS works | Variables | Datatypes </h1>\n<p class=\"site-masthead__description mb-0\" style=\"color:#555\">\n        Learn  -  Experiment  - Develop\n    </p><br></div>",
+      "status": "",
+      "output": "<div style=\"text-align:center;background-color:#fede02;color:#555;margin:-10px;margin-left:-20px;margin-right:-20px;\">\n        <br><h1 style=\"color:#555\">Exploring How JS works | Variables | Datatypes </h1>\n<p class=\"site-masthead__description mb-0\" style=\"color:#555\">\n        Learn  -  Experiment  - Develop\n    </p><br></div>",
+      "type": "html"
+    },
+    {
+      "code": "<div style=\"max-width: 100%; background: #fff; padding: 20px; border-radius: 8px; \n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n        <h2 style=\"color: #333; margin-bottom: 10px;\">Variables in JavaScript</h2>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            Variables are containers used to store data values.\n        </p>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            In JavaScript, variables can be declared using:\n        </p>\n        <ul style=\"list-style-type: none; padding: 0;\" >\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">var</span> – function-scoped, can be redeclared\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">let</span> – block-scoped, cannot be redeclared\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">const</span> – block-scoped, cannot be changed\n            </li>\n        </ul>\n    </div>",
+      "status": "",
+      "output": "<div style=\"max-width: 100%; background: #fff; padding: 20px; border-radius: 8px; \n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n        <h2 style=\"color: #333; margin-bottom: 10px;\">Variables in JavaScript</h2>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            Variables are containers used to store data values.\n        </p>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            In JavaScript, variables can be declared using:\n        </p>\n        <ul style=\"list-style-type: none; padding: 0;\">\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">var</span> – function-scoped, can be redeclared\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">let</span> – block-scoped, cannot be redeclared\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">const</span> – block-scoped, cannot be changed\n            </li>\n        </ul>\n    </div>",
+      "type": "html"
+    },
+    {
+      "code": "let count = 10;\ncount = 20; // Valid: count can be reassigne",
+      "status": "[1]<br><span style=\"font-size:8px\">9ms<span></span></span>",
+      "output": "20 <br>",
+      "type": "code"
+    },
+    {
+      "code": "const pi = 3.14;\npi=10; //pi cant be reassigned",
+      "status": "[-]",
+      "output": "<p class=\"error\">Assignment to constant variable.</p>",
+      "type": "code"
+    },
+    {
+      "code": "<div style=\"max-width: 100%; background: #fff; padding: 20px; border-radius: 8px; \n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n        <h2 style=\"color: #333; margin-bottom: 10px;\">JavaScript Data Types</h2>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            JavaScript has two types of data types:\n        </p>\n        <ul style=\"list-style-type: none; padding: 0;\">\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">Primitive Data Types</span> – Stored in Stack Memory\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">Reference Data Types</span> – Stored in Heap Memory\n            </li>\n        </ul>\n    </div>",
+      "status": "",
+      "output": "<div style=\"max-width: 100%; background: #fff; padding: 20px; border-radius: 8px; \n                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n        <h2 style=\"color: #333; margin-bottom: 10px;\">JavaScript Data Types</h2>\n        <p style=\"font-size: 16px; color: #555; margin-bottom: 10px;\">\n            JavaScript has two types of data types:\n        </p>\n        <ul style=\"list-style-type: none; padding: 0;\">\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">Primitive Data Types</span> – Stored in Stack Memory\n            </li>\n            <li style=\"background: #e3e3e3; margin: 5px 0; padding: 10px; border-left: 5px solid #007BFF; \n                       font-size: 16px; color: black;\">\n                <span style=\"font-weight: bold; color: #d9534f;\">Reference Data Types</span> – Stored in Heap Memory\n            </li>\n        </ul>\n    </div>",
+      "type": "html"
+    },
+    {
+      "code": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Primitive Data Types (Immutable, Stored in Stack)\n</h1>\n",
+      "status": "",
+      "output": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Primitive Data Types (Immutable, Stored in Stack)\n</h1>\n",
+      "type": "html"
+    },
+    {
+      "code": "<h2>1. Number</h2>\nUsed for both integers & floating-point numbers.",
+      "status": "",
+      "output": "<h2>1. Number</h2>\nUsed for both integers &amp; floating-point numbers.",
+      "type": "html"
+    },
+    {
+      "code": "let price = 99.99;\nlet age = 25;\nscrib.show(typeof price);",
+      "status": "[3]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "number <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h2>2. String</h2>\nSequence of characters enclosed in single ('), double (\"), or template literals (` `).",
+      "status": "",
+      "output": "<h2>2. String</h2>\nSequence of characters enclosed in single ('), double (\"), or template literals (` `).",
+      "type": "html"
+    },
+    {
+      "code": "let name = \"Vincent\";\nlet greeting = `Hello, ${name}!`;\nscrib.show(typeof name);",
+      "status": "[4]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "string <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h2>3. Boolean</h2>\nRepresents true or false values.",
+      "status": "",
+      "output": "<h2>3. Boolean</h2>\nRepresents true or false values.",
+      "type": "html"
+    },
+    {
+      "code": "let isLoggedIn = true;\nscrib.show(typeof isLoggedIn);",
+      "status": "[5]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "boolean <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h2>4. Undefined</h2>\nA variable that is declared but not assigned a value.",
+      "status": "",
+      "output": "<h2>4. Undefined</h2>\nA variable that is declared but not assigned a value.",
+      "type": "html"
+    },
+    {
+      "code": "let x;\nscrib.show(x);\nscrib.show(typeof x); ",
+      "status": "[6]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "undefined <br>undefined <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h2>5. Null</h2>\nRepresents an empty or unknown value (intentional absence of value).",
+      "status": "",
+      "output": "<h2>5. Null</h2>\nRepresents an empty or unknown value (intentional absence of value).",
+      "type": "html"
+    },
+    {
+      "code": "let data = null;\nscrib.show(typeof data);",
+      "status": "[7]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "object <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Reference Data Types (Mutable, Stored in Heap Memory)\n</h1>\n",
+      "status": "",
+      "output": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Reference Data Types (Mutable, Stored in Heap Memory)\n</h1>\n",
+      "type": "html"
+    },
+    {
+      "code": "<h2>1. Object</h2>\nStores key-value pairs.",
+      "status": "",
+      "output": "<h2>1. Object</h2>\nStores key-value pairs.",
+      "type": "html"
+    },
+    {
+      "code": "let user = { name: \"Vincent\", role:\"SDE\" };\nscrib.show(user.name); ",
+      "status": "[9]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "Vincent <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h2>2. Array</h2>\nStores multiple values in an ordered list.",
+      "status": "",
+      "output": "<h2>2. Array</h2>\nStores multiple values in an ordered list.",
+      "type": "html"
+    },
+    {
+      "code": "let numbers = [10, 20, 30];\nscrib.show(numbers[1]);",
+      "status": "[10]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "20 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Deep Copy Vs Shallow Copy\n</h1>",
+      "status": "",
+      "output": "<h1 style=\"color: #007BFF; font-size: 24px; font-weight: bold; text-align: center; \n           background: #f8f9fa; padding: 10px; border-radius: 5px; \n           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\">\n    Deep Copy Vs Shallow Copy\n</h1>",
+      "type": "html"
+    },
+    {
+      "code": "// Primitive (Creates a copy)\nlet a = 10;\nlet b = a;\nb = 20;\nscrib.show(a);\n\n// Reference (Shares memory)\nlet obj1 = { value: 10 };\nlet obj2 = obj1;\nobj2.value = 20;\nscrib.show(obj1.value); ",
+      "status": "[12]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "10 <br>20 <br>",
+      "type": "code"
+    }
+  ],
+  "source": "https://github.com/gopi-suvanam/scribbler",
+  "run_on_load": false
+}
