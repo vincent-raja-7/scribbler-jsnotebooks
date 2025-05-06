@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "Reverse a String",
+    "language_info": {
+      "name": "JavaScipt",
+      "version": "8.0"
+    }
+  },
+  "jsnbversion": "v0.1",
+  "cells": [
+    {
+      "code": "<h1>Simple Logic Without using String Methods</h1>",
+      "status": "",
+      "output": "<h1>Simple Logic Without using String Methods</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let s = \"Vincent Raja\"\nlet reverse = \"\"\nfor(let i=s.length-1; i>=0; i--)\n  reverse = reverse + s[i]\nscrib.show(reverse)",
+      "status": "[7]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "ajaR tnecniV <br>",
+      "type": "code"
+    },
+    {
+      "code": "let s = \"Vincent Raja\"\nlet rev = \"\"\nfor (let i=0; i<s.length; i++)\n  rev = s[i]+rev\nscrib.show(rev)",
+      "status": "[8]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "ajaR tnecniV <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Using String Methods</h1>",
+      "status": "",
+      "output": "<h1>Using String Methods</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let s = \"Vincent Raja\"\nlet rev = s.split(\"\").reverse().join(\"\");\nscrib.show(s.split(\"\").reverse().join(\"\"))",
+      "status": "[12]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "ajaR tnecniV <br>",
+      "type": "code"
+    }
+  ],
+  "source": "https://github.com/gopi-suvanam/scribbler",
+  "run_on_load": false
+}
