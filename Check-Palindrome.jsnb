@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "Check if String is Palindrome",
+    "language_info": {
+      "name": "JavaScipt",
+      "version": "8.0"
+    }
+  },
+  "jsnbversion": "v0.1",
+  "cells": [
+    {
+      "code": "<h1>Using Simple Reversing Technique</h1>",
+      "status": "",
+      "output": "<h1>Using Simple Reversing Technique</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let s = \"Vincent\"\nlet reverse = \"\"\nfor(let i=s.length-1; i>=0; i--)\n  reverse = reverse + s[i]\nscrib.show(reverse === s)",
+      "status": "[2]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "false <br>",
+      "type": "code"
+    },
+    {
+      "code": "let s = \"madam\"\nlet rev = \"\"\nfor (let i=0; i<s.length; i++)\n  rev = s[i]+rev\nscrib.show(rev === s)",
+      "status": "[4]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "true <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Using Two Pointer Technique</h1>",
+      "status": "",
+      "output": "<h1>Using Two Pointer Technique</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let st = \"madam\"\nlet left = 0\nlet right = st.length - 1\nlet flag = true\nwhile(left<right){\n  if(st[left] !== st[right])\n\tflag = false;\n  left++\n  right--\n}\nscrib.show(flag)",
+      "status": "[6]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "true <br>",
+      "type": "code"
+    }
+  ],
+  "source": "https://github.com/gopi-suvanam/scribbler",
+  "run_on_load": false
+}
